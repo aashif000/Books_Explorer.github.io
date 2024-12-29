@@ -5,8 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Base URL for GitHub Pages deployment
-  base: "/Books_Explorer.github.io/",
+  base: "/Books_Explorer.github.io/", // Set to your repository name
 
   server: {
     host: "::",
